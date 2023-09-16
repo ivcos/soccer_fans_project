@@ -21,6 +21,23 @@ body {
     padding: 1em;
     /* height:300vh */; /*100% of the viewport height*/
 }
+/* Stop all images being printed https://stackoverflow.com/questions/6885099/css-html-javascript-tricks-to-print-a-web-page-without-images*/
+@media print {
+    img {
+      display: none !important;
+    }
+  
+    * {
+      background-image: none !important;
+    }
+  }
+
+  @media print {
+    aside {
+        display: none !important;
+    }
+    
+  }
 
 header {
 background-repeat: no-repeat;
