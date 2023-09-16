@@ -136,7 +136,7 @@ header, section, footer, aside, nav, article, figure {
     background-color: #e1fde1;
     padding: 0.5em;
     margin-bottom: 0px;
-    text-decoration:underline;
+    /* text-decoration:underline; */
     list-style-type:square
 
 }
