@@ -56,9 +56,7 @@ figure {
         padding: 2px;
         margin: 2px;
     }
-h2{
-    /* border: 2px solid black */;
-}
+
 nav {
     /* border: 4px solid black; */
     align-items: center;
@@ -94,9 +92,8 @@ nav a:link {
 }
 
 nav a:link { color: white; }
+nav a:visited { color: #61f00e; }
 nav a:hover { color: #0000ff;}
-                  
-nav a:visited { color: #591fb1; }
 
 nav a:active { color: red; font-weight: bold; }
 
