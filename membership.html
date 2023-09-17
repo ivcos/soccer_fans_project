@@ -59,7 +59,19 @@
                         </form>
                     </fieldset>
                 </div>
-                <hr
+                <div class="success-message" id="success-message">
+                </div> 
+                <script>
+                    const membershipForm = document.getElementById("membership-form");
+                    const successMessage = document.getElementById("success-message");
+                    membershipForm.addEventListener("submit", function (e) {
+                    e.preventDefault();
+
+                    successMessage.textContent= 'Thank you for your membership application. We will respond shortly.'
+                    membershipForm.reset();
+                    }); 
+                </script>
+                <hr>
 
                <!--  /* a scroll bar is added when needed avoiding the missing text */ -->
                 <div style="overflow-x: auto;">
