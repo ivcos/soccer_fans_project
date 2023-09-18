@@ -54,6 +54,18 @@ background-repeat: repeat-x;
 padding: 2px;
 }
 
+/* ul {
+    list-style-type:none;
+    /* border: 2px solid green; */
+    align-items: center;
+    height: 100%;
+} */
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 5px;
+    font-weight: bolder;
+}
 #footballmatch {
     text-align: center;
     margin:20px;
@@ -360,21 +372,25 @@ textarea {
     height: 150px;
 }
 input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 3px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 input[type="Reset"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 3px;
-    cursor: pointer;
+    /* cursor:; */
 }
 
 input[type="submit"]:hover {
