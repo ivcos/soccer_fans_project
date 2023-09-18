@@ -150,7 +150,7 @@ nav a:active { color: red; font-weight: bold; }
 header, section, footer, aside, nav, article, figure {
     display: block;
 }
-#famous_quotes {
+.famous_quotes {
     /* border: 2px solid black; */
     font-size: 0.8rem;
     /* background-color: white; */
@@ -201,14 +201,14 @@ header, section, footer, aside, nav, article, figure {
     text-align: left;
     font-size: 1.0rem;
     padding: 0.25em 1em 0.25em 1em;
-    border-bottom: 1px solid rgb(32, 46, 23);
+    /* border-bottom: 1px solid blue; */
     background-color: #e1fde1;
 }
 
 .aside_nav a:link {
     text-decoration: none;
-    color:grey;
-    font-weight:bolder;
+    color: blue;
+    font-weight:bold;
     padding: 6px;
 }
 
