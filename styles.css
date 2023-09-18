@@ -541,8 +541,9 @@ button {
     }
 
 .membership_table th {
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #112f4d;
+    color: white;
+    font-weight: bold;
     padding: 10px;
     text-align: left;
     text-align: center;
