@@ -64,8 +64,9 @@ footer {
 a {
     text-decoration: none;
     color: blue;
-    padding: 5px;
+    padding: 2px;
     font-weight: bolder;
+    margin: 10px;
 }
 #footballmatch {
     text-align: center;
@@ -120,11 +121,9 @@ nav li {
     /* border-bottom: 2px solid white */;
     /* background-color: white; */	
     color: white;
+    margin:2px;
 }
 
-/* nav li.logo {
-    background-color: white;
-} */
 
 nav a:link {
     text-decoration: none;
@@ -133,7 +132,7 @@ nav a:link {
     font-weight: bold;
 }
 
-nav a:link { color: white; font-weight: bolder; }
+nav a:link { color: white; font-weight: bolder;}
 nav a:visited { color: #215006; }
 nav a:hover { color: #fafa25;}
 
@@ -234,7 +233,7 @@ nav a:active { color: red; font-weight: bold; }
     text-decoration: none;
     color: blue;
     font-weight:bold;
-    padding: 6px;
+    padding: 10px;
 }
 
 @media (min-width: 600px ) {
