@@ -14,6 +14,24 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
+#header_div {
+    overflow: auto;
+    /* background-color:rgb(122, 180, 47); */
+    width: 100%;
+    height:100%;
+}
+
+h1 {
+    text-align:center;
+    float:left;
+    width: 50%;
+    height: 10%;
+}
+
+#header_image{
+    float: left;
+    /* width: 20%; */
+}
 #wrapper{
     width: 98%;
     margin: 0 auto;
@@ -41,9 +59,9 @@ body {
     
   }
 
-header {
+/* header {
 background-repeat: no-repeat;
-/* border: 2px solid black; */
+/* border: 2px solid black; 
 background-color: white;
 font-size: 1.2rem;
 font-weight: bold;
@@ -51,10 +69,12 @@ text-align: center;
 color: black;
 margin-bottom: 10px;
 background-image: url(./images/soccer_ball_2.jpg);
-background-size: auto 95%;
-background-repeat: repeat-x;
-padding: 2px;
-}
+background-size: auto 95%;*/
+/* background-repeat: repeat-x; */
+/* padding: 2px; */
+ */
+
+
 footer {
     background-color: #112f4d;
     color:white;
@@ -101,6 +121,7 @@ nav {
     align-items: center;
     text-align: right;
     height: 100%;
+    clear: both;
     
 }
 nav ul {
@@ -109,7 +130,7 @@ nav ul {
     align-items: center;
     height: 100%;
     padding: 0.0em;
-    background-color: #0d59a5;
+    background-color: #c9cacc;
 }
 
 nav li {
@@ -126,8 +147,8 @@ nav li {
 
 
 nav a:link {
-    text-decoration: none;
-    color: black;
+    text-decoration:none;
+    /* color: black; */
     padding: 5px;
     font-weight: bold;
 }
