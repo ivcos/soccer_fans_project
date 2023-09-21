@@ -266,9 +266,12 @@ nav a:active { color: red; font-weight: bold; }
         }
 	nav ul li { border-bottom: none; 
                 width:250px; 
-                font-size: 1.5rem; */
+                font-size: 1.5rem; 
     }
-
+    #header_div {
+        display: flex;
+        justify-content: space-between;
+    }
 	header { grid-area: header; }
     nav    { grid-area: nav; }
     main   { grid-area: main; }
