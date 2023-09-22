@@ -32,6 +32,11 @@ h1 {
     float: left;
     /* width: 20%; */
 }
+footer {
+    background-color: #011931;
+    color:white;
+    height: 100%;
+}
 #wrapper{
     width: 98%;
     margin: 0 auto;
@@ -74,12 +79,6 @@ background-size: auto 95%;*/
 /* padding: 2px; */
  */
 
-
-footer {
-    background-color: #112f4d;
-    color:white;
-    height: 100%;
-}
 
 a {
     text-decoration: none;
