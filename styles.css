@@ -130,7 +130,7 @@ nav ul {
     align-items: center;
     height: 100%;
     padding: 0.0em;
-    background-color: #666666;
+    background-color: #d8d5d5;
 }
 
 nav li {
@@ -150,10 +150,10 @@ nav a:link {
     text-decoration:none;
     /* color: black; */
     padding: 5px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-nav a:link { color: white; font-weight: bolder;}
+nav a:link { color: rgb(37, 32, 32); font-weight: bolder;}
 nav a:visited { color: #215006; }
 nav a:hover { color: #030b50;}
 
