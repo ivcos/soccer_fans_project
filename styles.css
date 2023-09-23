@@ -30,8 +30,11 @@ h1 {
 
 #header_image{
     float: left;
-    /* width: 20%; */
 }
+#header_image1{
+    float: left;
+}
+
 footer {
     background-color: #011931;
     color:white;
@@ -204,7 +207,7 @@ nav a:active { color: red; font-weight: bold; }
     /* text-decoration:underline; */
     list-style-type:square
 }
-#quote {
+.quote {
     /* border: 2px solid black; */
     font-size: 1.0rem;
     /* background-color: white; */
