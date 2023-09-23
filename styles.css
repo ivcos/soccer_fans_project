@@ -411,7 +411,7 @@ textarea {
     height: 150px;
 }
 input[type="submit"] {
-    background-color: grey;
+    background-color: rgb(70, 70, 70);
     color: white;
     font-weight: bolder;
     font-size: 18px;
@@ -422,7 +422,7 @@ input[type="submit"] {
 }
 
 input[type="Reset"] {
-    background-color: grey;
+    background-color: rgb(70, 70, 70);
     color: white;
     font-weight: bolder;
     font-size: 18px;
