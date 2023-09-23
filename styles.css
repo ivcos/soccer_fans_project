@@ -278,7 +278,7 @@ nav a:active { color: red; font-weight: bold; }
 	aside  { grid-area: aside; }
     footer { grid-area: footer; }
 	#wrapper { display: grid;
-	           grid-template-rows: 0.25fr 0.1fr 5fr 1.5fr 0.1fr;
+	           grid-template-rows: 0.25fr 0.1fr 5fr 1.0fr 0.1fr;
                grid-template-columns: 1fr;
                grid-template-areas: 
 				"header header"
