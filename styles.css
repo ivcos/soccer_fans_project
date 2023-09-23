@@ -466,7 +466,7 @@ fieldset {
     #wrapper_membership { width: 80%;
                margin: auto; max-width: 1200px;
                display: grid;
-               grid-template-rows: 0.25fr 0.25fr 5fr 0.5fr 0.5fr;
+               grid-template-rows: 0.25fr 0.25fr 3fr 0.5fr 0.05fr;
                grid-template-columns: 6fr 2fr;
                grid-template-areas: 
                  "header header"
@@ -502,13 +502,13 @@ fieldset {
             justify-content: space-around; }
     header { grid-area: header; }
     nav    { grid-area: nav; }
-    main   { grid-area: main; }
+    main   { grid-area: main; margin-bottom: 10px;}
     aside  { grid-area: aside; }
     footer { grid-area: footer; }		
     #wrapper_membership { width: 80%;
                margin: auto; max-width: 1200px;
                display: grid;
-               grid-template-rows: 0.25fr 0.25fr 5fr 0.2fr;
+               grid-template-rows: 0.25fr 0.25fr 5fr 0.05fr;
                grid-template-columns: 6fr 2fr;
                grid-template-areas: 
                  "header header"
