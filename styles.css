@@ -35,7 +35,8 @@ h1 {
 footer {
     background-color: #011931;
     color:white;
-    height: 100%;
+    /* height:100%; */
+    height: 24px;
 }
 #wrapper{
     width: 98%;
@@ -277,7 +278,7 @@ nav a:active { color: red; font-weight: bold; }
 	aside  { grid-area: aside; }
     footer { grid-area: footer; }
 	#wrapper { display: grid;
-	           grid-template-rows: 0.25fr 0.1fr 5fr 0.5fr 0.2fr;
+	           grid-template-rows: 0.25fr 0.1fr 5fr 1.5fr 0.1fr;
                grid-template-columns: 1fr;
                grid-template-areas: 
 				"header header"
@@ -301,7 +302,7 @@ nav a:active { color: red; font-weight: bold; }
         #wrapper { width: 80%;
                    margin: auto; max-width: 1200px;
                    display: grid;
-                   grid-template-rows: 0.25fr 0.1fr 8fr 0.5fr;
+                   grid-template-rows: 0.25fr 0.1fr 8fr 0.2fr;
                    grid-template-columns: 6fr 2fr;
                    grid-template-areas: 
                      "header header"
@@ -334,7 +335,7 @@ nav a:active { color: red; font-weight: bold; }
     #wrapper_about { width: 80%;
                margin: auto; max-width: 1200px;
                display: grid;
-               grid-template-rows: 0.25fr 0.25fr 5fr 0.5fr;
+               grid-template-rows: 0.25fr 0.25fr 5fr 0.2fr;
                grid-template-columns: 6fr 2fr;
                grid-template-areas: 
                  "header header"
@@ -366,7 +367,7 @@ nav a:active { color: red; font-weight: bold; }
     #wrapper_Contact_Us { width: 80%;
                margin: auto; max-width: 1200px;
                display: grid;
-               grid-template-rows: 0.25fr 0.25fr 5fr 0.5fr;
+               grid-template-rows: 0.25fr 0.25fr 5fr 0.2fr;
                grid-template-columns: 6fr 2fr;
                grid-template-areas: 
                  "header header"
@@ -507,7 +508,7 @@ fieldset {
     #wrapper_membership { width: 80%;
                margin: auto; max-width: 1200px;
                display: grid;
-               grid-template-rows: 0.25fr 0.25fr 5fr 0.5fr;
+               grid-template-rows: 0.25fr 0.25fr 5fr 0.2fr;
                grid-template-columns: 6fr 2fr;
                grid-template-areas: 
                  "header header"
