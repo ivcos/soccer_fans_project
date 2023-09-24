@@ -256,13 +256,15 @@ nav a:active { color: red; font-weight: bold; }
     padding: 0.25em 1em 0.25em 1em;
     /* border-bottom: 1px solid blue; */
     background-color: white;
+
 }
 
 .aside_nav a:link {
     text-decoration: none;
     color: blue;
     font-weight:bold;
-    padding: 10px;
+    padding: 0px;
+    border-bottom: 1px solid blue;
 }
 
 .Interesting_Links {
