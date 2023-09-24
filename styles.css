@@ -65,9 +65,13 @@ footer {
     aside {
         display: none !important;
     }
-    
   }
 
+  @media print {
+    nav {
+        display: none !important;
+    }
+  }
 /* header {
 background-repeat: no-repeat;
 /* border: 2px solid black; 
