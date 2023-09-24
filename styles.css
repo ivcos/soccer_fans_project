@@ -465,72 +465,6 @@ fieldset {
 }
 
 
-
-/* Handle the scenario here for Ipad, larger screens than iphone but less that 1024px */
-@media (min-width: 600px) {
-    nav ul { display: flex;
-            flex-flow:row wrap;
-            justify-content: space-around; }
-    header { grid-area: header; }
-    nav    { grid-area: nav; }
-    main   { grid-area: main;}
-    aside  { grid-area: aside; }
-    footer { grid-area: footer; }
-    #wrapper_membership { width: 80%;
-               margin: auto; max-width: 1200px;
-               display: grid;
-               grid-template-rows: 0.25fr 0.25fr 3fr 0.5fr 0.05fr;
-               grid-template-columns: 6fr 2fr;
-               grid-template-areas: 
-                 "header header"
-                 "nav    nav"
-                 "main   main"
-                 "aside  aside"
-                 "footer footer"
-                  }
-
-     #formandtable {
-        display:flex;
-        flex-direction: column-reverse;
-        /* border: 2px solid black; */
-        justify-content:space-between;
-                }
-                
-/*     #membership-form {
-        float: left;
-        border: 2px solid black;
-        display: inline-block;
-        width:50%;
-                }
-    #membership_table_id {
-        float: right;
-        display: inline-block;
-        width:50%;
-                } */
-}
-
-@media (min-width: 1024px) {
-    nav ul { display: flex;
-            flex-flow:row wrap;
-            justify-content: space-around; }
-    header { grid-area: header; }
-    nav    { grid-area: nav; }
-    main   { grid-area: main; margin-bottom: 10px;}
-    aside  { grid-area: aside; }
-    footer { grid-area: footer; }		
-    #wrapper_membership { width: 80%;
-               margin: auto; max-width: 1200px;
-               display: grid;
-               grid-template-rows: 0.25fr 0.25fr 5fr 0.05fr;
-               grid-template-columns: 6fr 2fr;
-               grid-template-areas: 
-                 "header header"
-                 "nav    nav"
-                 "main   aside"
-                 "footer footer"
-                  }
-}
-
 /* Success Message Styling */
 .success-message {
     color: black;
@@ -579,20 +513,25 @@ button {
     font-size: 18px;
         }
 
-
-
 .membership_table {
     border-collapse: collapse; /* Removes the spacing between table cells */
-    width: 100%;
+    max-width: 100%;
     border: 1px solid black;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 10px;
     }
 
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+
+}
 .membership_table th {
     background-color: #2e0481;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 10px;
     text-align: left;
     text-align: center;
@@ -613,3 +552,61 @@ button {
 .membership_table tbody tr:hover {
     background-color: #ddd;
 }
+
+
+
+/* Handle the scenario here for Ipad, larger screens than iphone but less that 1024px */
+@media (min-width: 600px) {
+    nav ul { display: flex;
+            flex-flow:row wrap;
+            justify-content: space-around; }
+    header { grid-area: header; }
+    nav    { grid-area: nav; }
+    main   { grid-area: main;}
+    aside  { grid-area: aside; }
+    footer { grid-area: footer; }
+    #wrapper_membership { width: 80%;
+               margin: auto; max-width: 1200px;
+               display: grid;
+               grid-template-rows: 0.25fr 0.25fr 3fr 0.5fr 0.05fr;
+               grid-template-columns: 6fr 2fr;
+               grid-template-areas: 
+                 "header header"
+                 "nav    nav"
+                 "main   main"
+                 "aside  aside"
+                 "footer footer"
+                  }
+
+     #formandtable {
+        display:flex;
+        flex-direction: column-reverse;
+        /* border: 2px solid black; */
+        justify-content:space-between;
+                } 
+                }
+
+
+
+@media (min-width: 1024px) {
+    nav ul { display: flex;
+            flex-flow:row wrap;
+            justify-content: space-around; }
+    header { grid-area: header; }
+    nav    { grid-area: nav; }
+    main   { grid-area: main; margin-bottom: 10px;}
+    aside  { grid-area: aside; }
+    footer { grid-area: footer; }		
+    #wrapper_membership { width: 80%;
+               margin: auto; max-width: 1200px;
+               display: grid;
+               grid-template-rows: 0.25fr 0.25fr 5fr 0.05fr;
+               grid-template-columns: 6fr 2fr;
+               grid-template-areas: 
+                 "header header"
+                 "nav    nav"
+                 "main   aside"
+                 "footer footer"
+                  }
+}
+
