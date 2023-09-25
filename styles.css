@@ -156,7 +156,7 @@ nav li {
 
 
 nav a:link {
-    text-decoration:none;
+    text-decoration:underline;
     /* color: black; */
     padding: 5px;
     font-weight: bolder;
@@ -175,16 +175,6 @@ nav a:active { color: red; font-weight: bold; }
     /* margin-bottom: 10px; */
     float:right;
 }
-/* nav ul*/
-
-/* #externallinksid {
-    border: 2px solid red;
-    align-items: center;
-    height: 100%;
-    padding: 0.0em;
-    color: black;
-  
-} */
 
 
 /* Nearly all browsers support HTML semnatic elements. For those that don't, we can use the following code to tell browsers
@@ -301,7 +291,8 @@ nav a:active { color: red; font-weight: bold; }
     footer { grid-area: footer; }
 	#wrapper { display: grid;
 	           grid-template-rows: 0.25fr 0.1fr 5fr 1.0fr 0.1fr;
-               grid-template-columns: 1fr;
+               /* grid-template-columns: 1fr; */
+               grid-template-columns:200px 2fr 1fr;
                grid-template-areas: 
 				"header header"
 				"nav    nav" 
@@ -326,7 +317,7 @@ nav a:active { color: red; font-weight: bold; }
                    display: grid;
                    grid-template-rows: 0.25fr 7fr 0.1fr;
                     /* grid-template-columns: 0.5fr 10fr 2fr; */
-                    grid-template-columns: 200px 2fr 1fr;
+                    grid-template-columns: 200px 2fr 0.8fr;
                     grid-template-areas: 
                  "header header header"
                  /* "nav    nav" */
