@@ -270,6 +270,14 @@ nav a:active { color: red; font-weight: bold; }
 .Interesting_Links {
     text-align: center;
 }
+#mission_paragraph{
+    font-size: 1.4rem;
+    /* background-color: white; */
+    padding: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic; 
+}
 @media (min-width: 600px ) {
 	nav ul { display: flex;
          flex-flow:row wrap;
