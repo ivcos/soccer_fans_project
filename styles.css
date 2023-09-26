@@ -622,6 +622,7 @@ caption {
         flex-direction: column-reverse;
         /* border: 2px solid black; */
         justify-content:space-between;
+        align-items: center;
                 } 
                 }
 
