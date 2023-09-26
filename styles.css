@@ -86,15 +86,15 @@ background-image: url(./images/soccer_ball_2.jpg);
 background-size: auto 95%;*/
 /* background-repeat: repeat-x; */
 /* padding: 2px; */
- */
+ 
 
 
 a {
     text-decoration: none;
-    color: blue;
-    padding: 2px;
+    color:blue;
+    padding: 24px;
     font-weight: bolder;
-    margin: 10px;
+    /* margin: 10px 0px 10px 10px; */
 }
 #footballmatch {
     text-align: center;
@@ -292,7 +292,7 @@ nav a:active { color: red; font-weight: bold; }
 	#wrapper { display: grid;
 	           grid-template-rows: 0.25fr 0.1fr 5fr 1.0fr 0.1fr;
                /* grid-template-columns: 1fr; */
-               grid-template-columns:200px 2fr 1fr;
+               grid-template-columns:200px 2fr 0fr;
                grid-template-areas: 
 				"header header"
 				"nav    nav" 
