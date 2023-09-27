@@ -261,6 +261,15 @@ nav a:active { color: red; font-weight: bold; }
 .Interesting_Links {
     text-align: center;
 }
+/* .externallinks {
+    border: 1px solid black;
+    font-size: 1.0rem;
+    /* background-color: white; */
+    margin: 1px;
+    font-weight: bolder;
+    font-style: italic; 
+    display: block;
+} */
 #mission_paragraph{
     font-size: 1.4rem;
     /* background-color: white; */
