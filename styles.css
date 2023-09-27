@@ -364,7 +364,7 @@ nav a:active { color: red; font-weight: bold; }
                margin: auto; max-width: 1200px;
                display: grid;
                grid-template-rows: 0.25fr 5fr 0.2fr;
-               grid-template-columns: 1fr 6fr 2fr;
+               grid-template-columns: 200px 6fr 2fr;
                grid-template-areas: 
                  "header header header"
                  /* "nav    nav" */
@@ -408,7 +408,7 @@ nav a:active { color: red; font-weight: bold; }
                margin: auto; max-width: 1200px;
                display: grid;
                grid-template-rows: 0.25fr 5fr 0.2fr;
-               grid-template-columns: 1fr 6fr 2fr;
+               grid-template-columns: 200px 6fr 2fr;
                grid-template-areas: 
                  "header header header"
                  /* "nav    nav" */
@@ -641,7 +641,7 @@ caption {
                margin: auto; max-width: 1200px;
                display: grid;
                grid-template-rows: 0.25fr 5fr 0.2fr;
-               grid-template-columns: 1fr 6fr 2fr;
+               grid-template-columns: 200px 6fr 2fr;
                grid-template-areas: 
                  "header header header"
                  /* "nav    nav" */
