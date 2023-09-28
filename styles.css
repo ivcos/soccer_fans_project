@@ -92,7 +92,8 @@ background-size: auto 95%;*/
 a {
     text-decoration: none;
     color:blue;
-    padding: 24px;
+    font-size: 1.2em;
+    padding: 6px;
     font-weight: bolder;
     /* margin: 10px 0px 10px 10px; */
 }
@@ -261,16 +262,17 @@ nav a:active { color: red; font-weight: bold; }
 .Interesting_Links {
     text-align: center;
 }
-/* .externallinks {
+.externallinks {
     border: 1px solid black;
     font-size: 1.0rem;
     /* background-color: white; */
-    margin: 1px;
+    /* margin: 1px;
     font-weight: bolder;
     font-style: italic; 
-    display: block;
-} */
-#mission_paragraph{
+    display: block; */
+}
+
+.mission_paragraph{
     font-size: 1.4rem;
     /* background-color: white; */
     padding: 1em;
@@ -278,6 +280,7 @@ nav a:active { color: red; font-weight: bold; }
     font-weight: bold;
     font-style: italic; 
 }
+
 @media (min-width: 600px ) {
 	nav ul { display: flex;
          flex-flow:row wrap;
