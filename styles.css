@@ -286,7 +286,10 @@ nav a:active { color: red; font-weight: bold; }
     font-weight: bold;
     font-style: italic; 
 }
-
+.club_listing{
+    margin-top: 0.5em;
+    margin-bottom: 0.6px;
+}
 @media (min-width: 600px ) {
 	nav ul { display: flex;
          flex-flow:row wrap;
