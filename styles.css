@@ -299,6 +299,9 @@ nav a:active { color: red; font-weight: bold; }
     padding-left: 1em;
     padding-bottom: 1em;
 }
+#email {
+   color:white; 
+}
 @media (min-width: 600px ) {
 	nav ul { display: flex;
          flex-flow:row wrap;
