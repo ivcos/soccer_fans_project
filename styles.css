@@ -154,7 +154,7 @@ nav li {
     text-align: center;
     /* border-bottom: 2px solid black; */
     font-size: 1.25rem;
-    padding: 0 1em 0 1em;
+    padding: 0.25em 1em 0 1em;
     /* border-bottom: 2px solid white */;
     /* background-color: white; */	
     color: white;
@@ -305,6 +305,18 @@ nav a:active { color: red; font-weight: bold; }
         display: flex;
         justify-content: space-between;
     }
+
+    nav li {
+        display: block;
+        text-align: center;
+        /* border-bottom: 2px solid black; */
+        font-size: 1.25rem;
+        padding: 0 1em 0 1em;
+        /* border-bottom: 2px solid white */;
+        /* background-color: white; */	
+        color: white;
+        margin:2px;
+    }
 	header { grid-area: header; }
     nav    { grid-area: nav; }
     main   { grid-area: main; }
@@ -328,6 +340,18 @@ nav a:active { color: red; font-weight: bold; }
    /*       ol { display: flex;
             flex-flow:row wrap;
             justify-content: space-around;  } */
+
+            nav li {
+                display: block;
+                text-align: center;
+                /* border-bottom: 2px solid black; */
+                font-size: 1.25rem;
+                padding: 0 1em 0 1em;
+                /* border-bottom: 2px solid white */;
+                /* background-color: white; */	
+                color: white;
+                margin:2px;
+            }
         header { grid-area: header; }
         nav    { grid-area: nav; }
         main   { grid-area: main; }
