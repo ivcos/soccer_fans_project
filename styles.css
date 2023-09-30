@@ -100,7 +100,13 @@ a {
 #footballmatch {
     text-align: center;
     margin:20px;
-    float:right}
+    /* float:right; */
+    float:center;
+    }
+#paragraph_intro {
+    overflow: auto;
+    clear: both;
+}
     img {
         /* border: 2px solid black; */
         /* the style below is to make the image responsive */
