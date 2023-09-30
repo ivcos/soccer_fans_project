@@ -31,9 +31,11 @@ h1 {
 
 #header_image{
     float: left;
+    aspect-ratio: 1/1;
 }
 #header_image1{
     float: left;
+    aspect-ratio: 1/1;
 }
 
 footer {
