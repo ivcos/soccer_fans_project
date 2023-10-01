@@ -110,7 +110,7 @@ a {
     text-align: center;
     margin:20px;
     /* float:right; */
-    float:center;
+    float:none;
     }
 #paragraph_intro {
     overflow: auto;
@@ -299,7 +299,7 @@ nav a:active { color: red; font-weight: bold; }
     padding-left: 1em;
     padding-bottom: 1em;
 }
-#email {
+#email_footer {
    color:white; 
 }
 @media (min-width: 600px ) {
